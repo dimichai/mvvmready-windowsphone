@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="MVVMReadyWindowsPhone.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MVVMReadyWindowsPhone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    DataContext="{Binding Main, Source={StaticResource Locator}}">
+
+    <StackPanel >
+        <TextBlock 
+            Text="{Binding PageTitle}" 
+            FontSize="28" 
+            TextAlignment="Center" />
+        <Button 
+            Content="Show Warning"
+            HorizontalAlignment="Center" 
+            Width="250"
+            Command="{Binding ShowWarning, Mode=OneWay}"/>
+        <Button 
+            Content="Show Notification" 
+            HorizontalAlignment="Center" 
+            Width="250"
+            Command="{Binding ShowNotification, Mode=OneWay}"/>
+        <Button 
+            Content="Navigate To Next Page"
+            HorizontalAlignment="Center"
+            Width="250"
+            Command="{Binding NavigateToSecondPage, Mode=OneWay}" />
+    </StackPanel>
+</Page>

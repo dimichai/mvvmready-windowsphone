@@ -1,0 +1,1 @@
+Z:\Projects\NET\MVVMReadyWindowsPhone\MVVMReadyWindowsPhone\MVVMReadyWindowsPhone.csproj;neutral
