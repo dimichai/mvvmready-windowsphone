@@ -33,6 +33,8 @@ namespace MVVMReadyWindowsPhone.ViewModel
             ////}
 
             _navigationService = navigationService;
+
+            PageTitle = "First Page";
         }
 
         //public MainViewModel()
@@ -43,12 +45,15 @@ namespace MVVMReadyWindowsPhone.ViewModel
         private readonly INavigationService _navigationService;
 
 
-        private string _pageTitle = "First Page";
+        private string _pageTitle ;
 
         public string PageTitle
         {
-            get { return _pageTitle; }
-            set { Set(PageTitle, ref _pageTitle, value); }
+            get { return _pageTitle ?? "Default TItle"; }
+            set
+            {
+                Set("PageTitle", ref _pageTitle, value);
+            }
         }
 
         private RelayCommand _navigateToSecondPage;
@@ -61,14 +66,14 @@ namespace MVVMReadyWindowsPhone.ViewModel
             }
         }
 
-        private RelayCommand _showDialog;
+        private RelayCommand _showWarning;
 
         public RelayCommand ShowWarning
         {
             get
             {
-                return _showDialog 
-                    ?? (_showDialog = new RelayCommand (
+                return _showWarning 
+                    ?? (_showWarning = new RelayCommand (
                         async () =>
                         {
                             var dialog = ServiceLocator.Current.GetInstance<IDialogService>();
@@ -77,14 +82,14 @@ namespace MVVMReadyWindowsPhone.ViewModel
             }
         }
 
-        private RelayCommand _showNotification;
+        private RelayCommand _sendNotificationMessage;
 
-        public RelayCommand ShowNotification
+        public RelayCommand SendNotificationMessage
         {
             get
             {
-                return _showNotification
-                    ?? (_showNotification = new RelayCommand(
+                return _sendNotificationMessage
+                    ?? (_sendNotificationMessage = new RelayCommand(
                     () =>
                     {
                         Messenger.Default.Send(

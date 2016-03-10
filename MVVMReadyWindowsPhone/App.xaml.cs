@@ -1,4 +1,5 @@
 ﻿using GalaSoft.MvvmLight.Messaging;
+using GalaSoft.MvvmLight.Threading;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -104,6 +105,7 @@ namespace MVVMReadyWindowsPhone
             // Ensure the current window is active
             Window.Current.Activate();
 
+            DispatcherHelper.Initialize();
             Messenger.Default.Register<NotificationMessageAction<string>>(this, HandleNotification);
 
         }

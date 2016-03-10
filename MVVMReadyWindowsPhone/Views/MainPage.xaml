@@ -20,10 +20,10 @@
             Width="250"
             Command="{Binding ShowWarning, Mode=OneWay}"/>
         <Button 
-            Content="Show Notification" 
+            Content="SendMessage" 
             HorizontalAlignment="Center" 
             Width="250"
-            Command="{Binding ShowNotification, Mode=OneWay}"/>
+            Command="{Binding SendNotificationMessage, Mode=OneWay}"/>
         <Button 
             Content="Navigate To Next Page"
             HorizontalAlignment="Center"

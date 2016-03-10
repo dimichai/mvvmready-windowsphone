@@ -1,9 +1,9 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
     <LocalAssembly PathName="z:\projects\net\mvvmreadywindowsphone\mvvmreadywindowsphone\obj\debug\intermediatexaml\mvvmreadywindowsphone.exe" HashGuid="1dc26de2-aa1d-13a4-6dde-ba2ccc784843" />
-    <ReferenceAssembly PathName="z:\projects\net\mvvmreadywindowsphone\packages\mvvmlightlibs.5.2.0.0\lib\wpa81\galasoft.mvvmlight.dll" HashGuid="d702f8e6-9904-1220-8de7-be8614bf93e8" />
-    <ReferenceAssembly PathName="z:\projects\net\mvvmreadywindowsphone\packages\mvvmlightlibs.5.2.0.0\lib\wpa81\galasoft.mvvmlight.extras.dll" HashGuid="f59e2cac-89a1-06f4-bbe7-18857251ef78" />
-    <ReferenceAssembly PathName="z:\projects\net\mvvmreadywindowsphone\packages\mvvmlightlibs.5.2.0.0\lib\wpa81\galasoft.mvvmlight.platform.dll" HashGuid="27c4f135-c15f-18a2-cb9f-847748d33bdb" />
-    <ReferenceAssembly PathName="z:\projects\net\mvvmreadywindowsphone\packages\commonservicelocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\microsoft.practices.servicelocation.dll" HashGuid="89de7f80-26d8-a17c-5ad9-b855f81ea5b2" />
+    <ReferenceAssembly PathName="z:\projects\net\mvvmready-windowsphone\packages\mvvmlightlibs.5.2.0.0\lib\wpa81\galasoft.mvvmlight.dll" HashGuid="d702f8e6-9904-1220-8de7-be8614bf93e8" />
+    <ReferenceAssembly PathName="z:\projects\net\mvvmready-windowsphone\packages\mvvmlightlibs.5.2.0.0\lib\wpa81\galasoft.mvvmlight.extras.dll" HashGuid="f59e2cac-89a1-06f4-bbe7-18857251ef78" />
+    <ReferenceAssembly PathName="z:\projects\net\mvvmready-windowsphone\packages\mvvmlightlibs.5.2.0.0\lib\wpa81\galasoft.mvvmlight.platform.dll" HashGuid="27c4f135-c15f-18a2-cb9f-847748d33bdb" />
+    <ReferenceAssembly PathName="z:\projects\net\mvvmready-windowsphone\packages\commonservicelocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\microsoft.practices.servicelocation.dll" HashGuid="89de7f80-26d8-a17c-5ad9-b855f81ea5b2" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

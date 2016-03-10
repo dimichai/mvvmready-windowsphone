@@ -3,7 +3,7 @@
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="Main" />
     <RootPropertyPathName Name="NavigateToSecondPage" />
-    <RootPropertyPathName Name="ShowNotification" />
+    <RootPropertyPathName Name="SendNotificationMessage" />
     <RootPropertyPathName Name="ShowWarning" />
     <RootPropertyPathName Name="PageTitle" />
     <RootPropertyPathName Name="SecondPage" />
